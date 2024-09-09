@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Através dos sonhos</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>!</p>
+            <button class="btn-proximo" data-proximo="1">Sonho</button>
+            <button class="btn-proximo" data-proximo="2">Pesadelo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa escolhendo o Sonho, Você acorda em uma ilha deserta e sai para buscar respostas sobre oque está acontecendo.</p>
+            <button class="btn-proximo" data-proximo="3">Subir no topo de uma árvore</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No Pesadelo, você acorda no deserto mas está tendo uma tempestade. Na carta, você vê uma placas indicando um caminho a ser seguido você deve procurar a causa desse pesadelo.</p>
+            <button class="btn-proximo" data-proximo="5">seguir as placas ate uma cidade abandonada</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as um oasis que você viu perto de você</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo da árvore, você encontra um antigo monumento que aparenta estar em bom estado e com muitas riquezas.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Monumento</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas cidade abandonada, você descobre um mapa antigo escondido, apontando que a próxima
+                cidade teram uma população tanto quanto esquisita mas que iram te receber bem.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para explorar a cidade</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando o oasis, você encontra uma chaleira com muita água, mas a água esta com uma cor estranha.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a cidade abandonada</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na cidade, a busca pela explicação do sonho esta mais proxima. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta a Cidade, você fala com essa população e eles dizem que a uma saida daquele pesadelo . Agora, explorar a cidade !</p>
+            <button class="btn-proximo" data-proximo="7">Tentar achar a saída</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a saída
+                do sonho.</p>
+            <button class="btn-proximo" data-proximo="11">Entrar na saida do sonho</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da saída
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando a saida do sonho">
+            <p>Entrando na saida, você descobre que vc dormiu com um apanhador de sonhos na sua cama e fica curioso se essa foi a causa do sonho</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a Saida do Sonho.</p>
+            <button class="btn-proximo" data-proximo="11">Sair do Sonho</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
